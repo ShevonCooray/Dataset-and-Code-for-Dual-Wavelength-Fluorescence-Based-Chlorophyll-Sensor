@@ -218,10 +218,6 @@ The .tflite models were uploaded to Edge Impulse to generate optimized Arduino i
 
 ### Machine Learning Summary
 
-<<<<<<< HEAD
-=======
-Parameter	  Value
->>>>>>> 3ad4d425e6ee371cb272fe81644f4673e1293fe5
 
 
 Model Type : 2nd Order Polynomial Regression
