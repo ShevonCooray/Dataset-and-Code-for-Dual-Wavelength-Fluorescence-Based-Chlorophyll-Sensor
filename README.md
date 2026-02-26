@@ -21,19 +21,41 @@ The repository enables full reproducibility of:
 
 
 
-### Repository Structure
+### 01\_Spectrometer\_Calibration
 
 
 
-Dataset-and-Code-for-Dual-Wavelength-Fluorescence-Based-Chlorophyll-Sensor
+Contains raw spectral data and calibration mapping used to convert CCD pixel index to wavelength.
 
-│
 
-├── 01\_Spectrometer\_Calibration/
 
-├── 02\_Fluorescence\_Spectra/
+**Files:**
 
-├── 03\_Machine\_Learning/
 
-└──  04\_Edge\_Deployment/
+
+* calibration\_spectra.csv
+
+&nbsp;	Raw emission spectra for mercury lamp and 405 nm / 450 nm lasers.
+
+
+
+* pixel\_wavelength\_mapping.csv
+
+&nbsp;	Extracted calibration peaks and polynomial fit mapping pixels to wavelength (nm).
+
+
+
+* calibration\_plot.png
+
+&nbsp;	Calibration curve visualization.
+
+
+
+* calibration\_spectra.png
+
+&nbsp;	Raw calibration spectra visualization.
+
+
+
+This calibration establishes the wavelength accuracy of the custom diffraction-based spectrometer.
 
