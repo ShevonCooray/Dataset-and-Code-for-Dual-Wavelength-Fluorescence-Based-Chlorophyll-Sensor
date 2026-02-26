@@ -5,6 +5,7 @@
 This repository contains the complete dataset, machine learning models, and embedded deployment code supporting the manuscript:
 
 
+
 ### "Dual-Wavelength Laser-Induced Fluorescence Sensor with Embedded Machine Learning for Simultaneous Quantification of Chlorophyll-a and Chlorophyll-b"
 
 
@@ -33,19 +34,19 @@ Contains raw spectral data and calibration mapping used to convert CCD pixel ind
 
 * calibration\_spectra.csv
 
-&nbsp;		Raw emission spectra for mercury lamp and 405 nm / 450 nm lasers.
+ 		Raw emission spectra for mercury lamp and 405 nm / 450 nm lasers.
 
 * pixel\_wavelength\_mapping.csv
 
-&nbsp;		Extracted calibration peaks and polynomial fit mapping pixels to wavelength (nm).
+ 		Extracted calibration peaks and polynomial fit mapping pixels to wavelength (nm).
 
 * calibration\_plot.png
 
-&nbsp;		Calibration curve visualization.
+ 		Calibration curve visualization.
 
 * calibration\_spectra.png
 
-&nbsp;		Raw calibration spectra visualization.
+ 		Raw calibration spectra visualization.
 
 
 
@@ -217,23 +218,23 @@ The .tflite models were uploaded to Edge Impulse to generate optimized Arduino i
 
 ### Machine Learning Summary
 
-Parameter	Value
 
-Model Type	2nd Order Polynomial Regression
 
-Validation Method	Leave-One-Out Cross Validation (LOO-CV)
+Model Type : 2nd Order Polynomial Regression
 
-Dataset Size	n = 11
+Validation Method : Leave-One-Out Cross Validation (LOO-CV)
 
-SVD Components	11
+Dataset Size : n = 11
 
-Chl-a R²	0.947
+SVD Components : 11
 
-Chl-b R²	0.968
+Chl-a R² : 0.947
 
-Chl-a RMSE	0.071 mg/L
+Chl-b R² : 0.968
 
-Chl-b RMSE	0.057 mg/L
+Chl-a RMSE : 0.071 mg/L
+
+Chl-b RMSE : 0.057 mg/L
 
 
 
