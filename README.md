@@ -31,25 +31,17 @@ Contains raw spectral data and calibration mapping used to convert CCD pixel ind
 
 **Files:**
 
-
-
 * calibration\_spectra.csv
 
 &nbsp;	Raw emission spectra for mercury lamp and 405 nm / 450 nm lasers.
-
-
 
 * pixel\_wavelength\_mapping.csv
 
 &nbsp;	Extracted calibration peaks and polynomial fit mapping pixels to wavelength (nm).
 
-
-
 * calibration\_plot.png
 
 &nbsp;	Calibration curve visualization.
-
-
 
 * calibration\_spectra.png
 
@@ -58,4 +50,60 @@ Contains raw spectral data and calibration mapping used to convert CCD pixel ind
 
 
 This calibration establishes the wavelength accuracy of the custom diffraction-based spectrometer.
+
+
+
+### 02\_Fluorescence\_Spectra
+
+
+
+Contains all fluorescence spectra used for model development.
+
+
+
+##### Single\_Pigment\_Spectra/
+
+
+
+* ChlA\_spectrum.csv
+* ChlB\_spectrum.csv
+* Fluorescence\_raw\_spectra.png
+* Fluorescence\_smoothed\_spectra.png
+
+
+
+**Spectral Preprocessing**
+
+
+
+Smoothed spectra were generated using a Savitzky–Golay filter with:
+
+
+
+* Window length = 50 points
+* Polynomial order = 2
+
+
+
+##### Concentration\_Series/
+
+
+
+Contains fluorescence spectra across multiple concentration levels.
+
+
+
+* ChlA\_concentration\_series\_spectra.csv
+* ChlB\_concentration\_series\_spectra.csv
+* Corresponding visualization PNG files.
+
+
+
+These datasets were used for regression model development and validation.
+
+
+
+
+
+
 
