@@ -33,19 +33,19 @@ Contains raw spectral data and calibration mapping used to convert CCD pixel ind
 
 * calibration\_spectra.csv
 
-&nbsp;	Raw emission spectra for mercury lamp and 405 nm / 450 nm lasers.
+&nbsp;		Raw emission spectra for mercury lamp and 405 nm / 450 nm lasers.
 
 * pixel\_wavelength\_mapping.csv
 
-&nbsp;	Extracted calibration peaks and polynomial fit mapping pixels to wavelength (nm).
+&nbsp;		Extracted calibration peaks and polynomial fit mapping pixels to wavelength (nm).
 
 * calibration\_plot.png
 
-&nbsp;	Calibration curve visualization.
+&nbsp;		Calibration curve visualization.
 
 * calibration\_spectra.png
 
-&nbsp;	Raw calibration spectra visualization.
+&nbsp;		Raw calibration spectra visualization.
 
 
 
