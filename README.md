@@ -5,7 +5,7 @@
 This repository contains the complete dataset, machine learning models, and embedded deployment code supporting the manuscript:
 
 
-### "   "
+### "Dual-Wavelength Laser-Induced Fluorescence Sensor with Embedded Machine Learning for Simultaneous Quantification of Chlorophyll-a and Chlorophyll-b"
 
 
 
