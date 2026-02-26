@@ -23,3 +23,17 @@ The repository enables full reproducibility of:
 
 ### Repository Structure
 
+
+
+Dataset-and-Code-for-Dual-Wavelength-Fluorescence-Based-Chlorophyll-Sensor
+
+│
+
+├── 01\_Spectrometer\_Calibration/
+
+├── 02\_Fluorescence\_Spectra/
+
+├── 03\_Machine\_Learning/
+
+└──  04\_Edge\_Deployment/
+
