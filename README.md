@@ -94,9 +94,13 @@ Contains fluorescence spectra across multiple concentration levels.
 
 
 
-* ChlA\_concentration\_series\_spectra.csv
+* ChlA\_concentration\_series\_spectra.csv 
+  Raw and smoothed fluorescence spectra of chlorophyll-a measured at multiple concentrations for regression model development.
 * ChlB\_concentration\_series\_spectra.csv
+  Raw and smoothed fluorescence spectra of chlorophyll-a measured at multiple concentrations for regression model development.
 * Corresponding visualization PNG files.
+
+&nbsp;	Visualization of fluorescence emission spectra of Chl-a and Chl-b across different concentration levels.
 
 
 
