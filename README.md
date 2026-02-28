@@ -169,13 +169,11 @@ Separate folders for Chl-a and Chl-b:
 
 Includes:
 
+* Polynomial\_SVD.py : Python script applying Singular Value Decomposition (SVD) and polynomial feature transformation for Chl-a and Chl-b  model preparation.
+
 
 
 * Poly\_to\_TFlite.py : Python script converting the trained Chl-a and Chl-b polynomial regression model into TensorFlow Lite format.
-
-
-
-* Polynomial\_SVD.py : Python script applying Singular Value Decomposition (SVD) and polynomial feature transformation for Chl-a and Chl-b  model preparation.
 
 
 
@@ -195,7 +193,7 @@ Includes:
 
 
 
-* svd\_chla.pkl : Serialized SVD transformation matrix for Chl-a spectral dimensionality reduction.
+* svd\_chl**x**.pkl : Serialized SVD transformation matrix for Chl-**x** spectral dimensionality reduction.
 
 
 
