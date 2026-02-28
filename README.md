@@ -105,7 +105,7 @@ Contains all scripts, processed datasets, trained models, and validation results
 
 
 
-Contains the final processed dataset used for training and validation.
+* chl\_2000\_3694.csv : Raw pixel intensity data (pixels 2000–3693) for all 11 samples, including corresponding Chl-a and Chl-b concentrations (mg/L), used as input for all machine learning model training and validation without baseline correction, smoothing, or normalization. Each row corresponds to one sample.
 
 
 
@@ -117,12 +117,41 @@ Includes:
 
 
 
-* Linear regression
-* Polynomial regression
-* Random forest regression
-* Leave-One-Out Cross-Validation (LOO-CV) scripts
-* Performance result CSV files
-* Estimated vs actual plots
+* linear\_regression\_model.py : Python script for training and evaluating a linear regression model using spectral pixel features.
+
+
+
+* polynomial\_regression\_model.py : Python script for training the second-order polynomial regression model using SVD-reduced spectral features.
+
+
+
+* randomForest\_regression\_model.py : Python script for training and evaluating the random forest regression model using spectral input data.
+
+
+
+* linear\_LOO\_CV.py : Python script implementing Leave-One-Out Cross-Validation for linear regression models.
+
+
+
+* polynomial\_LOO\_CV.py : Python script performing Leave-One-Out Cross-Validation for the second-order polynomial regression model.
+
+
+
+* randomForest\_LOO\_CV.py : Python script performing Leave-One-Out Cross-Validation for the random forest regression model.
+
+
+
+* ChlA\_poynomial\_LOO\_CV\_results.csv : Leave-One-Out Cross-Validation performance metrics for the polynomial regression model predicting Chl-a concentration.
+
+
+
+* ChlB\_poynomial\_LOO\_CV\_results.csv : Leave-One-Out Cross-Validation performance metrics for the polynomial regression model predicting Chl-b concentration.
+
+
+
+
+
+* polynomial\_LOO\_CV\_estimated\_vs\_actual\_plot.png : Visualization comparing predicted versus actual chlorophyll concentrations for the polynomial regression model under LOO-CV.
 
 
 
@@ -142,11 +171,31 @@ Includes:
 
 
 
-* SVD transformation scripts
-* Polynomial regression training scripts
-* Model serialization files (.pkl)
-* TensorFlow Lite models (.tflite)
-* Conversion scripts
+* Poly\_to\_TFlite.py : Python script converting the trained Chl-a and Chl-b polynomial regression model into TensorFlow Lite format.
+
+
+
+* Polynomial\_SVD.py : Python script applying Singular Value Decomposition (SVD) and polynomial feature transformation for Chl-a and Chl-b  model preparation.
+
+
+
+* SVD\_components\_to\_C\_array.py : Utility script exporting trained SVD components into C-array format for embedded deployment.
+
+
+
+* chl\_**x**\_model.tflite : TensorFlow Lite regression model for real-time Chl-**x** concentration estimation.
+
+
+
+* poly\_model\_chl**x**.pkl : Serialized scikit-learn polynomial regression model for Chl-**x**.
+
+
+
+* poly\_transform.pkl : Serialized second-order polynomial feature transformer expanding 11 SVD components into 78 features for regression model training and deployment.
+
+
+
+* svd\_chla.pkl : Serialized SVD transformation matrix for Chl-a spectral dimensionality reduction.
 
 
 
