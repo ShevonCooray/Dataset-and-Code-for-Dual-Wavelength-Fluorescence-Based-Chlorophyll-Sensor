@@ -32,21 +32,10 @@ Contains raw spectral data and calibration mapping used to convert CCD pixel ind
 
 **Files:**
 
-* calibration\_spectra.csv
-
- 	Raw emission spectra for mercury lamp and 405 nm / 450 nm lasers.
-
-* pixel\_wavelength\_mapping.csv
-
- 	Extracted calibration peaks and polynomial fit mapping pixels to wavelength (nm).
-
-* calibration\_plot.png
-
- 	Calibration curve visualization.
-
-* calibration\_spectra.png
-
- 	Raw calibration spectra visualization.
+* calibration\_spectra.csv : Raw emission spectra for mercury lamp and 405 nm / 450 nm lasers.
+* pixel\_wavelength\_mapping.csv : Extracted calibration peaks and polynomial fit mapping pixels to wavelength (nm).
+* calibration\_plot.png : Calibration curve visualization.
+* calibration\_spectra.png : Raw calibration spectra visualization.
 
 
 
@@ -66,10 +55,10 @@ Contains all fluorescence spectra used for model development.
 
 
 
-* ChlA\_spectrum.csv
-* ChlB\_spectrum.csv
-* Fluorescence\_raw\_spectra.png
-* Fluorescence\_smoothed\_spectra.png
+* ChlA\_spectrum.csv : Raw and smoothed fluorescence emission spectrum of Chl-a under selective laser excitation.
+* ChlB\_spectrum.csv : Raw and smoothed fluorescence emission spectrum of Chl-b under selective laser excitation.
+* Fluorescence\_raw\_spectra.png : Overlay plot of raw fluorescence spectra for Chl-a and Chl-b.
+* Fluorescence\_smoothed\_spectra.png : Overlay plot of Savitzky–Golay smoothed fluorescence spectra for Chl-a and Chl-b with fluorescence peaks marked.
 
 
 
