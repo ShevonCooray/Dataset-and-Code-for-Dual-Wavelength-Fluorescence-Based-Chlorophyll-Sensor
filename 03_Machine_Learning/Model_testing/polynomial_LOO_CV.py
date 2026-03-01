@@ -12,7 +12,7 @@ from sklearn.pipeline import make_pipeline
 # 1️⃣ Load and Preprocess Data
 # ==========================
 
-df = pd.read_csv("chl_2000_3694.csv")
+df = pd.read_csv("../Dataset/chl_2000_3694.csv")
 
 # Chl-a
 df_chla = df[df["Chl-a Conc (mg/L)"] > 0]
