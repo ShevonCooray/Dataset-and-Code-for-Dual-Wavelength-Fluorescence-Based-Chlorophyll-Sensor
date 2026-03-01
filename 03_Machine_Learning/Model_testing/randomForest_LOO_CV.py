@@ -9,7 +9,7 @@ from sklearn.model_selection import LeaveOneOut
 # ==========================
 # 1️⃣ Load Dataset
 # ==========================
-df = pd.read_csv("chl_2000_3694.csv")
+df = pd.read_csv("../Dataset/chl_2000_3694.csv")
 
 # Chl-a
 df_chla = df[df["Chl-a Conc (mg/L)"] > 0]
