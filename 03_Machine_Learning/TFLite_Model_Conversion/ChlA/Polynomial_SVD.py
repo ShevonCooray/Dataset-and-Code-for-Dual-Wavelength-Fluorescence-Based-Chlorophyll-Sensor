@@ -12,7 +12,7 @@ import tensorflow as tf
 # ==========================
 
 # Load dataset
-df = pd.read_csv("chl_2000_3694.csv")
+df = pd.read_csv("../../Dataset/chl_2000_3694.csv")
 
 # Extract Chl-a spectrum data
 df_chla = df[df["Chl-a Conc (mg/L)"] > 0]  
