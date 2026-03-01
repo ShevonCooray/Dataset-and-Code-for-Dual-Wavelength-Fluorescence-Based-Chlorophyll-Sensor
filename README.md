@@ -212,7 +212,6 @@ Number of components selected: 11
 Contains all files required for microcontroller deployment.
 
 EdgeImpulse\_Export/
----
 
 
 
