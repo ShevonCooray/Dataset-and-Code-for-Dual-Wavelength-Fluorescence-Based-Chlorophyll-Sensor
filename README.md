@@ -213,14 +213,45 @@ Number of components selected: 11
 
 Contains all files required for microcontroller deployment.
 
+EdgeImpulse\_Export/
+---
+
+
+
+Includes:
+
+* ei-chl\_conc\_model\_a-arduino-1.0.2.zip
+* ei-chl\_conc\_model\_b\_poly-arduino-1.0.1.zip
+
+Edge Impulse–generated Arduino deployment package containing the optimized TensorFlow Lite Micro inference library for Chl concentration estimation.
+
+
+
+The .tflite models were uploaded to Edge Impulse to generate optimized Arduino inference libraries.
+
+
+
 
 
 #### Arduino\_Code/
 
 
 
-* Edge Impulse exported Arduino libraries
-* Inference .ino files for Chl-a and Chl-b
+Include:
+
+* ChlA\_arduino\_inferencing\_library.zip : Packaged Arduino inference library for integrating the Chl-a TensorFlow Lite model into the Arduino Nano 33 BLE Sense environment.
+
+
+
+* ChlA\_recieve\_inference.ino : Arduino sketch implementing real-time Chl-a concentration inference using the deployed TensorFlow Lite model.
+
+
+
+* ChlB\_arduino\_inferencing\_library.zip : Packaged Arduino inference library for integrating the Chl-b TensorFlow Lite model into the Arduino Nano 33 BLE Sense environment.
+
+
+
+* ChlB\_recieve\_inference.ino:Arduino sketch implementing real-time Chl-b concentration inference using the deployed TensorFlow Lite model.
 
 
 
@@ -239,16 +270,6 @@ Inference type:
 * Regression (TensorFlow Lite Micro)
 
 
-
-#### EdgeImpulse\_Export/
-
-
-
-Contains exported deployment packages generated via the Edge Impulse platform.
-
-
-
-The .tflite models were uploaded to Edge Impulse to generate optimized Arduino inference libraries.
 
 
 
