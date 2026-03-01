@@ -149,8 +149,6 @@ Includes:
 
 
 
-
-
 * polynomial\_LOO\_CV\_estimated\_vs\_actual\_plot.png : Visualization comparing predicted versus actual chlorophyll concentrations for the polynomial regression model under LOO-CV.
 
 
