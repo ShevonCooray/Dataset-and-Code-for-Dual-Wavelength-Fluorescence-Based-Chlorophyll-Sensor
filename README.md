@@ -193,7 +193,7 @@ Includes:
 
 
 
-* svd\_chl**x**.pkl : Serialized SVD transformation matrix for Chl-**x** spectral dimensionality reduction.
+* svd\_chl**x**.pkl : Serialized TruncatedSVD model used to reduce raw spectral pixel inputs to 11 principal components for Chl-**x**.
 
 
 
